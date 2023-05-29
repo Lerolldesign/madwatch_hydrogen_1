@@ -14,9 +14,9 @@ const devOnlyPlugins = [visionTool()]
 
 export default defineConfig({
   name: 'default',
-  title: 'Shopify - madwatch-worldwide',
+  title: 'Shopify - madwatch-watches',
 
-  projectId: '83uufmh5',
+  projectId: 'q3e93468',
   dataset: 'production',
 
   plugins: [

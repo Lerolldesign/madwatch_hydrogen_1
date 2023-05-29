@@ -191,3 +191,75 @@ This repository is published under the [MIT][license] license.
 [shopify-storefront-api]: https://shopify.dev/api/storefront
 [shopify-analytics]: https://shopify.dev/api/hydrogen/components/framework/shopifyanalytics
 [use-sanity-query-hook]: ./src/hooks/useSanityQuery.ts
+
+
+<div className="bg-red-200 basis-1/3">
+    <video className="absolute z-10 w-auto min-w-full min-h-full max-w-none bg-cover" loop autoPlay muted height="1500" poster="https://upload.wikimedia.org/wikipedia/commons/e/e8/Elephants_Dream_s5_both.jpg">
+      <source src={src} type="video/mp4" />
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+    </div>
+
+
+
+      <div className="relative w-screen h-screen lg:w-screen flex flex-nowrap z-0">
+        <ScrollTextAbout />
+    <div className="bg-green-300 basis-1/3">
+    <Image
+      src="/images/home/skate.png" loading="lazy" 
+      width={1080}
+      height={1920}
+      alt="Logo Invog"
+      className="bg-cover"
+    />
+    </div>
+    <div className="bg-green-900 basis-1/3">
+    <Image
+      src="/images/home/skate.png" loading="lazy" 
+      width={1080}
+      height={1920}
+      alt="Logo Invog"
+      className="bg-cover"
+    />
+    </div>
+    <div className="bg-black basis-1/3 z-10">
+    <Image
+      src="/images/home/skate.png" loading="lazy" 
+      width={1080}
+      height={1920}
+      alt="Logo Invog"
+      className="bg-cover"
+    />
+    </div>
+    </div>
+
+
+
+
+
+
+    ////////////////ABOUT
+
+     <section className="z-20 py-32">
+    <div className="mx-5 max-w-screen-2xl px-4 py-16 sm:px-6 ">
+      <div className="grid grid-cols-1 lg:h-full lg:grid-cols-2">
+
+        <div className="relative flex items-center">
+        <div className="text-2xl  sm:text-3xl uppercase leading-10 lg:leading-2  lg:tracking-[.1rem] lg:text-[14rem] madfont">
+           <h3>OUR CONCEPT</h3>
+           </div>
+         
+        </div>
+  
+        <div className="relative flex items-center bg-gray-100 ">
+         
+          <div className="text-3xl leading-3">
+            <p>Today, technology cuts horizontally through every business and industry. There are more billion-dollar opportunities east 
+                of the Rockies and west of the Hudson River than everywhere else in North America combined — we’re documenting the stories of building in-between and beyond.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>#   m a d w a t c h _ h y d r o g e n _ 1  
+ 

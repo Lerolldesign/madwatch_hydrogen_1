@@ -53,7 +53,7 @@ export default function Navigation({menuLinks}: Props) {
   return (
     <nav
       className={clsx(
-        'relative hidden items-stretch justify-start gap-6 text-sm font-bold',
+        'relative hidden items-stretch justify-start gap-6 text-sm lg:tracking-[.1rem] lg:text-[2.9rem] text-black madfont uppercase',
         'lg:flex',
       )}
     >

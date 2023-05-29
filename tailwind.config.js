@@ -43,10 +43,10 @@ module.exports = {
       ],
       //18px
       lg: [
-        '1.125rem',
+        '1.190rem',
         {
-          letterSpacing: '-0.03em',
-          lineHeight: '1.1',
+          letterSpacing: '-0.00em',
+          lineHeight: '1.15',
         },
       ],
       // 24px
@@ -93,6 +93,7 @@ module.exports = {
     fontWeight: {
       bold: 700,
       medium: 500,
+      extrabold: 900,
     },
     letterSpacing: {
       normal: '-0.03em',
@@ -106,6 +107,7 @@ module.exports = {
     extend: {
       animation: {
         pulse: 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        shine: 'shine 1s',
       },
       colors: {
         darkGray: '#757575',
@@ -113,7 +115,6 @@ module.exports = {
         lightGray: '#F3F3F3',
         offBlack: '#2B2E2E',
         peach: '#FFE1D1',
-        red: '#EC5039',
         shopPay: '#5A31F4',
       },
       height: {
@@ -127,6 +128,11 @@ module.exports = {
           },
           '50%': {
             opacity: 0.75,
+          },
+        },
+        shine: {
+          '100%': {
+            left: '125%',
           },
         },
       },

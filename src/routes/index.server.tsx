@@ -12,6 +12,11 @@ import NotFound from '../components/global/NotFound.server';
 import {HOME_PAGE} from '../fragments/sanity/pages/home';
 import useSanityQuery from '../hooks/useSanityQuery';
 import type {SanityHomePage} from '../types';
+import One from '../components/heroes/One.server';
+import HomeCollection from '../components/home/collection.server';
+import HomeStory from '../components/home/Storysection.server';
+
+
 
 export default function IndexRoute() {
   const {data: sanityHome} = useSanityQuery<SanityHomePage>({
@@ -31,9 +36,13 @@ export default function IndexRoute() {
 
   return (
     <Layout>
-      {/* Page hero */}
-      {sanityHome?.hero && <HomeHero hero={sanityHome.hero} />}
+      <One />
+      <HomeStory />
+      <HomeCollection />
+      {/* Page hero 
+      {sanityHome?.hero && <HomeHero hero={sanityHome.hero} />} */}
 
+      {/* Page module 
       {sanityHome?.modules && (
         <div
           className={clsx(
@@ -43,7 +52,7 @@ export default function IndexRoute() {
         >
           <ModuleGrid items={sanityHome.modules} />
         </div>
-      )}
+      )}*/}
 
       <Seo
         data={{

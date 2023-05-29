@@ -8,7 +8,7 @@ import useSanityQuery from '../../hooks/useSanityQuery';
 import type {SanityLink} from '../../types';
 import LogoIcon from '../icons/Logo';
 import PortableText from '../portableText/PortableText.server';
-import SanityFooter from './SanityFooter.server';
+
 
 /**
  * A server component that specifies the content of the footer on the website
@@ -66,7 +66,10 @@ export default function Footer() {
           )}
         >
           <div className="pb-4">
-            <LogoIcon />
+              {/* Sanity Footer 
+            <LogoIcon />*/}
+           <h6 className='text-xl font-bold pb-4'>contact@madwatch.world </h6> 
+            <span className='text-md font-extrabold '>Mon–Fri 9am–5pm (GMT+1)</span>
           </div>
 
           <div
@@ -90,7 +93,7 @@ export default function Footer() {
       </div>
 
       {/* Sanity Footer */}
-      <SanityFooter />
+    
     </footer>
   );
 }

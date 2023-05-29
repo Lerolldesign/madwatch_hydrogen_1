@@ -22,7 +22,7 @@ export default function Layout({backgroundColor, children}: Props) {
 
   return (
     <>
-      <div className="absolute top-0 left-0">
+      <div className="absolute top-0 left-0 fragment">
         <a
           href="#mainContent"
           className="sr-only p-4 focus:not-sr-only focus:block"

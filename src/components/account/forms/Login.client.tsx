@@ -58,7 +58,7 @@ export default function LoginForm() {
   );
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center ">
       <FormCardWrapper title="Sign in">
         <form onSubmit={handleSubmit(handleLogin)}>
           {/* Form error */}

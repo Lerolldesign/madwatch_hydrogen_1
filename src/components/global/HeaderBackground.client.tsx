@@ -31,8 +31,8 @@ export default function HeaderBackground() {
       <Link to="/">
         <div
           className={clsx(
-            'absolute bottom-0 top-0 left-1/2 flex w-[50px] -translate-x-1/2 items-center',
-            'lg:w-[65px]',
+            'absolute bottom-0 top-0 left-1/2 flex w-[250px] -translate-x-1/2 items-center',
+            'lg:w-[300px]',
           )}
         >
           <LogoIcon

@@ -15,6 +15,7 @@ export default function CartToggle({onClick}: Props) {
 
   return (
     <CircleOutlineButton
+    className='w-full bg-black text-white'
       aria-expanded={isCartOpen}
       aria-controls="cart"
       onClick={() => {
@@ -22,7 +23,7 @@ export default function CartToggle({onClick}: Props) {
         onClick?.();
       }}
     >
-      {totalQuantity}
+   {totalQuantity}
     </CircleOutlineButton>
   );
 }

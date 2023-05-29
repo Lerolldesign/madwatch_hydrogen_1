@@ -18,6 +18,26 @@
     @apply decoration-[0.1em] underline-offset-[0.1em] hover:underline;
   }
 
+
+/* fraunces-regular - latin */
+@font-face {
+  font-family: 'Madfont';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/fonts/nordline-webfont.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('/fonts/nordline-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('/fonts/nordline-webfont.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('/fonts/nordline-webfont.woff')
+      format('woff'),
+    /* Modern Browsers */ url('/fonts/nordline.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('/fonts/nordline-webfont.svg#Madfont') format('svg'); /* Legacy iOS */
+}
+
   .portableText {
     ol {
       list-style-type: decimal;
@@ -77,4 +97,42 @@ html {
 .embla__slide {
   position: relative;
   flex: 0 0 100%;
+}
+
+
+.roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-Weight:700;
+  }
+
+  .madfont {
+  font-family: 'Madfont', sans-serif;
+  }
+
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee p {
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+
+.rotate-right {
+
+  transform: rotate(5deg);
+
 }

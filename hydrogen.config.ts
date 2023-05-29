@@ -9,12 +9,12 @@ export default defineConfig({
       Oxygen?.env?.PRIVATE_STOREFRONT_API_TOKEN,
     storeDomain:
       // @ts-ignore
-      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'oxygenator.myshopify.com',
+      Oxygen?.env?.PUBLIC_STORE_DOMAIN || 'madwatch-watches.myshopify.com',
     storefrontToken:
       // @ts-ignore
       Oxygen?.env?.PUBLIC_STOREFRONT_API_TOKEN ||
-      '70faab4b482211c4167f94181a4ba4ed',
-    storefrontApiVersion: '2022-07',
+      'cb316a67e433993291e1b486c7cfeb34',
+    storefrontApiVersion: '2023-04',
     // @ts-ignore
     storefrontId: Oxygen?.env?.PUBLIC_STOREFRONT_ID,
   },
